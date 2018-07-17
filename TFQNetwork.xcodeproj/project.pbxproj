@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F725FDD920FE02FA00CA501A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FDD820FE02FA00CA501A /* AppDelegate.m */; };
+		F725FDDC20FE02FA00CA501A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FDDB20FE02FA00CA501A /* ViewController.m */; };
+		F725FDDF20FE02FA00CA501A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F725FDDD20FE02FA00CA501A /* Main.storyboard */; };
+		F725FDE120FE02FB00CA501A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F725FDE020FE02FB00CA501A /* Assets.xcassets */; };
+		F725FDE420FE02FB00CA501A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F725FDE220FE02FB00CA501A /* LaunchScreen.storyboard */; };
+		F725FDE720FE02FB00CA501A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FDE620FE02FB00CA501A /* main.m */; };
+		F725FDF120FE02FB00CA501A /* TFQNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FDF020FE02FB00CA501A /* TFQNetworkTests.m */; };
+		F725FDFC20FE02FC00CA501A /* TFQNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FDFB20FE02FC00CA501A /* TFQNetworkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F725FDED20FE02FB00CA501A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F725FDCC20FE02FA00CA501A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F725FDD320FE02FA00CA501A;
+			remoteInfo = TFQNetwork;
+		};
+		F725FDF820FE02FC00CA501A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F725FDCC20FE02FA00CA501A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F725FDD320FE02FA00CA501A;
+			remoteInfo = TFQNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F725FDD420FE02FA00CA501A /* TFQNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFQNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F725FDD720FE02FA00CA501A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F725FDD820FE02FA00CA501A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F725FDDA20FE02FA00CA501A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F725FDDB20FE02FA00CA501A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F725FDDE20FE02FA00CA501A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F725FDE020FE02FB00CA501A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F725FDE320FE02FB00CA501A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F725FDE520FE02FB00CA501A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F725FDE620FE02FB00CA501A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F725FDEC20FE02FB00CA501A /* TFQNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F725FDF020FE02FB00CA501A /* TFQNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQNetworkTests.m; sourceTree = "<group>"; };
+		F725FDF220FE02FB00CA501A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F725FDF720FE02FC00CA501A /* TFQNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F725FDFB20FE02FC00CA501A /* TFQNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQNetworkUITests.m; sourceTree = "<group>"; };
+		F725FDFD20FE02FC00CA501A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F725FDD120FE02FA00CA501A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725FDE920FE02FB00CA501A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725FDF420FE02FC00CA501A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F725FDCB20FE02FA00CA501A = {
+			isa = PBXGroup;
+			children = (
+				F725FDD620FE02FA00CA501A /* TFQNetwork */,
+				F725FDEF20FE02FB00CA501A /* TFQNetworkTests */,
+				F725FDFA20FE02FC00CA501A /* TFQNetworkUITests */,
+				F725FDD520FE02FA00CA501A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F725FDD520FE02FA00CA501A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F725FDD420FE02FA00CA501A /* TFQNetwork.app */,
+				F725FDEC20FE02FB00CA501A /* TFQNetworkTests.xctest */,
+				F725FDF720FE02FC00CA501A /* TFQNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F725FDD620FE02FA00CA501A /* TFQNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				F725FDD720FE02FA00CA501A /* AppDelegate.h */,
+				F725FDD820FE02FA00CA501A /* AppDelegate.m */,
+				F725FDDA20FE02FA00CA501A /* ViewController.h */,
+				F725FDDB20FE02FA00CA501A /* ViewController.m */,
+				F725FDDD20FE02FA00CA501A /* Main.storyboard */,
+				F725FDE020FE02FB00CA501A /* Assets.xcassets */,
+				F725FDE220FE02FB00CA501A /* LaunchScreen.storyboard */,
+				F725FDE520FE02FB00CA501A /* Info.plist */,
+				F725FDE620FE02FB00CA501A /* main.m */,
+			);
+			path = TFQNetwork;
+			sourceTree = "<group>";
+		};
+		F725FDEF20FE02FB00CA501A /* TFQNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F725FDF020FE02FB00CA501A /* TFQNetworkTests.m */,
+				F725FDF220FE02FB00CA501A /* Info.plist */,
+			);
+			path = TFQNetworkTests;
+			sourceTree = "<group>";
+		};
+		F725FDFA20FE02FC00CA501A /* TFQNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F725FDFB20FE02FC00CA501A /* TFQNetworkUITests.m */,
+				F725FDFD20FE02FC00CA501A /* Info.plist */,
+			);
+			path = TFQNetworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F725FDD320FE02FA00CA501A /* TFQNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F725FE0020FE02FC00CA501A /* Build configuration list for PBXNativeTarget "TFQNetwork" */;
+			buildPhases = (
+				F725FDD020FE02FA00CA501A /* Sources */,
+				F725FDD120FE02FA00CA501A /* Frameworks */,
+				F725FDD220FE02FA00CA501A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFQNetwork;
+			productName = TFQNetwork;
+			productReference = F725FDD420FE02FA00CA501A /* TFQNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F725FDEB20FE02FB00CA501A /* TFQNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F725FE0320FE02FC00CA501A /* Build configuration list for PBXNativeTarget "TFQNetworkTests" */;
+			buildPhases = (
+				F725FDE820FE02FB00CA501A /* Sources */,
+				F725FDE920FE02FB00CA501A /* Frameworks */,
+				F725FDEA20FE02FB00CA501A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F725FDEE20FE02FB00CA501A /* PBXTargetDependency */,
+			);
+			name = TFQNetworkTests;
+			productName = TFQNetworkTests;
+			productReference = F725FDEC20FE02FB00CA501A /* TFQNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F725FDF620FE02FC00CA501A /* TFQNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F725FE0620FE02FC00CA501A /* Build configuration list for PBXNativeTarget "TFQNetworkUITests" */;
+			buildPhases = (
+				F725FDF320FE02FC00CA501A /* Sources */,
+				F725FDF420FE02FC00CA501A /* Frameworks */,
+				F725FDF520FE02FC00CA501A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F725FDF920FE02FC00CA501A /* PBXTargetDependency */,
+			);
+			name = TFQNetworkUITests;
+			productName = TFQNetworkUITests;
+			productReference = F725FDF720FE02FC00CA501A /* TFQNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F725FDCC20FE02FA00CA501A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Thread_Fight_Queue;
+				TargetAttributes = {
+					F725FDD320FE02FA00CA501A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F725FDEB20FE02FB00CA501A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F725FDD320FE02FA00CA501A;
+					};
+					F725FDF620FE02FC00CA501A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F725FDD320FE02FA00CA501A;
+					};
+				};
+			};
+			buildConfigurationList = F725FDCF20FE02FA00CA501A /* Build configuration list for PBXProject "TFQNetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F725FDCB20FE02FA00CA501A;
+			productRefGroup = F725FDD520FE02FA00CA501A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F725FDD320FE02FA00CA501A /* TFQNetwork */,
+				F725FDEB20FE02FB00CA501A /* TFQNetworkTests */,
+				F725FDF620FE02FC00CA501A /* TFQNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F725FDD220FE02FA00CA501A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725FDE420FE02FB00CA501A /* LaunchScreen.storyboard in Resources */,
+				F725FDE120FE02FB00CA501A /* Assets.xcassets in Resources */,
+				F725FDDF20FE02FA00CA501A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725FDEA20FE02FB00CA501A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725FDF520FE02FC00CA501A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F725FDD020FE02FA00CA501A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725FDDC20FE02FA00CA501A /* ViewController.m in Sources */,
+				F725FDE720FE02FB00CA501A /* main.m in Sources */,
+				F725FDD920FE02FA00CA501A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725FDE820FE02FB00CA501A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725FDF120FE02FB00CA501A /* TFQNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725FDF320FE02FC00CA501A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725FDFC20FE02FC00CA501A /* TFQNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F725FDEE20FE02FB00CA501A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F725FDD320FE02FA00CA501A /* TFQNetwork */;
+			targetProxy = F725FDED20FE02FB00CA501A /* PBXContainerItemProxy */;
+		};
+		F725FDF920FE02FC00CA501A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F725FDD320FE02FA00CA501A /* TFQNetwork */;
+			targetProxy = F725FDF820FE02FC00CA501A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F725FDDD20FE02FA00CA501A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F725FDDE20FE02FA00CA501A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F725FDE220FE02FB00CA501A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F725FDE320FE02FB00CA501A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F725FDFE20FE02FC00CA501A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F725FDFF20FE02FC00CA501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F725FE0120FE02FC00CA501A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.www.TFQNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F725FE0220FE02FC00CA501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.www.TFQNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F725FE0420FE02FC00CA501A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.www.TFQNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQNetwork.app/TFQNetwork";
+			};
+			name = Debug;
+		};
+		F725FE0520FE02FC00CA501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.www.TFQNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFQNetwork.app/TFQNetwork";
+			};
+			name = Release;
+		};
+		F725FE0720FE02FC00CA501A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.www.TFQNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFQNetwork;
+			};
+			name = Debug;
+		};
+		F725FE0820FE02FC00CA501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ3V9F357M;
+				INFOPLIST_FILE = TFQNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tfq.www.TFQNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TFQNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F725FDCF20FE02FA00CA501A /* Build configuration list for PBXProject "TFQNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F725FDFE20FE02FC00CA501A /* Debug */,
+				F725FDFF20FE02FC00CA501A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F725FE0020FE02FC00CA501A /* Build configuration list for PBXNativeTarget "TFQNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F725FE0120FE02FC00CA501A /* Debug */,
+				F725FE0220FE02FC00CA501A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F725FE0320FE02FC00CA501A /* Build configuration list for PBXNativeTarget "TFQNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F725FE0420FE02FC00CA501A /* Debug */,
+				F725FE0520FE02FC00CA501A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F725FE0620FE02FC00CA501A /* Build configuration list for PBXNativeTarget "TFQNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F725FE0720FE02FC00CA501A /* Debug */,
+				F725FE0820FE02FC00CA501A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F725FDCC20FE02FA00CA501A /* Project object */;
+}
