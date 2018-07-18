@@ -63,7 +63,6 @@
 		F725FE0B20FE041B00CA501A /* TFQBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQBaseModel.h; sourceTree = "<group>"; };
 		F725FE0C20FE041B00CA501A /* TFQBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQBaseModel.m; sourceTree = "<group>"; };
 		F725FE0D20FE041B00CA501A /* TFQBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQBaseRequest.h; sourceTree = "<group>"; };
-		F725FE0E20FE041B00CA501A /* BaseModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModelProtocol.h; sourceTree = "<group>"; };
 		F725FE0F20FE041C00CA501A /* TFQBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQBaseRequest.m; sourceTree = "<group>"; };
 		F725FE1320FE042600CA501A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
 		F725FE1420FE042600CA501A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
@@ -177,7 +176,6 @@
 		F725FE0A20FE040300CA501A /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				F725FE0E20FE041B00CA501A /* BaseModelProtocol.h */,
 				F725FE0B20FE041B00CA501A /* TFQBaseModel.h */,
 				F725FE0C20FE041B00CA501A /* TFQBaseModel.m */,
 				F725FE0D20FE041B00CA501A /* TFQBaseRequest.h */,
