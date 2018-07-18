@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseModelProtocol.h"
 
-@interface TFQBaseModel : NSObject<BaseModelProtocol>
+@interface TFQBaseModel : NSObject
 
-- (void)modelWithDict:(id)object;
+///把object的值赋值给自己
++ (instancetype)modelWithDict:(id)object;
 
 /**
  如果字典里边包含数组或者字典，那么就需要创建一个类来接收它

@@ -23,6 +23,7 @@
 		F725FE2420FE042600CA501A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FE1B20FE042600CA501A /* AFURLRequestSerialization.m */; };
 		F725FE2520FE042600CA501A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FE1D20FE042600CA501A /* AFNetworkReachabilityManager.m */; };
 		F725FE2620FE042600CA501A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F725FE1E20FE042600CA501A /* AFSecurityPolicy.m */; };
+		F75F62D520FEDA9E008E0D2E /* TFQModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F75F62D420FEDA9E008E0D2E /* TFQModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		F725FE1E20FE042600CA501A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		F725FE1F20FE042600CA501A /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		F725FE2020FE042600CA501A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F75F62D320FEDA9E008E0D2E /* TFQModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFQModel.h; sourceTree = "<group>"; };
+		F75F62D420FEDA9E008E0D2E /* TFQModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,8 @@
 				F725FDE220FE02FB00CA501A /* LaunchScreen.storyboard */,
 				F725FDE520FE02FB00CA501A /* Info.plist */,
 				F725FDE620FE02FB00CA501A /* main.m */,
+				F75F62D320FEDA9E008E0D2E /* TFQModel.h */,
+				F75F62D420FEDA9E008E0D2E /* TFQModel.m */,
 			);
 			path = TFQNetwork;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 		F725FDCC20FE02FA00CA501A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TFQ;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Thread_Fight_Queue;
 				TargetAttributes = {
@@ -337,6 +343,7 @@
 				F725FE2520FE042600CA501A /* AFNetworkReachabilityManager.m in Sources */,
 				F725FE2320FE042600CA501A /* AFURLSessionManager.m in Sources */,
 				F725FDDC20FE02FA00CA501A /* ViewController.m in Sources */,
+				F75F62D520FEDA9E008E0D2E /* TFQModel.m in Sources */,
 				F725FE1120FE041C00CA501A /* TFQBaseRequest.m in Sources */,
 				F725FDE720FE02FB00CA501A /* main.m in Sources */,
 				F725FE2120FE042600CA501A /* AFURLResponseSerialization.m in Sources */,

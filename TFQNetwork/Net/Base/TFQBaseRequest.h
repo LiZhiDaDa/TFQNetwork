@@ -27,16 +27,3 @@ typedef void(^requestFailour)(NSError *error);
 + (void)postWithUrlPath:(NSString *)urlPath parameters:(NSDictionary *)params success:(requestSuccess)success failure:(requestFailour)failour;
 
 @end
-
-//@interface TFQBaseParams  : NSObject
-//
-//@property (nonatomic, copy)NSString *userID;
-//@property (nonatomic, copy)NSString *userName;
-//@property (nonatomic, copy)NSString *clientName;
-//
-//- (NSDictionary *)dict;
-//@end
-
-//@interface TFQSub1Model : TFQBaseModel
-//
-//@end

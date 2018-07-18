@@ -12,7 +12,12 @@
 
 @implementation TFQBaseModel
 
-- (void)modelWithDict:(id)object{
++ (instancetype)modelWithDict:(id)object{
+    TFQBaseModel *model = [[self alloc] init];
+    return [model modelWithDict:object];
+}
+
+- (instancetype)modelWithDict:(id)object{
     NSDictionary *dict = [self dictWithObject:object];
     unsigned int count;
     Ivar *ivarList = class_copyIvarList([self class], &count);
@@ -55,6 +60,7 @@
             [self setValue:value forKey:propertyName];
         }
     }
+    return self;
 }
 
 ///把传进来的数据转化为字典
@@ -71,4 +77,11 @@
     return dict;
 }
 
+- (NSString *)getServerNameFromAppPropertyName:(NSString *)propertyName{
+    return propertyName;
+}
+
+-(Class)getClassWithPropertyName:(NSString *)propertyName{
+    return NSClassFromString(propertyName);
+}
 @end
