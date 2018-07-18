@@ -137,13 +137,13 @@
 				F725FDD820FE02FA00CA501A /* AppDelegate.m */,
 				F725FDDA20FE02FA00CA501A /* ViewController.h */,
 				F725FDDB20FE02FA00CA501A /* ViewController.m */,
+				F75F62D320FEDA9E008E0D2E /* TFQModel.h */,
+				F75F62D420FEDA9E008E0D2E /* TFQModel.m */,
 				F725FDDD20FE02FA00CA501A /* Main.storyboard */,
 				F725FDE020FE02FB00CA501A /* Assets.xcassets */,
 				F725FDE220FE02FB00CA501A /* LaunchScreen.storyboard */,
 				F725FDE520FE02FB00CA501A /* Info.plist */,
 				F725FDE620FE02FB00CA501A /* main.m */,
-				F75F62D320FEDA9E008E0D2E /* TFQModel.h */,
-				F75F62D420FEDA9E008E0D2E /* TFQModel.m */,
 			);
 			path = TFQNetwork;
 			sourceTree = "<group>";
