@@ -131,7 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				F725FE1220FE042600CA501A /* AFNetworking */,
-				F725FE0920FE03F700CA501A /* Net */,
+				F725FE0920FE03F700CA501A /* TFQNetwork */,
 				F725FDD720FE02FA00CA501A /* AppDelegate.h */,
 				F725FDD820FE02FA00CA501A /* AppDelegate.m */,
 				F725FDDA20FE02FA00CA501A /* ViewController.h */,
@@ -165,15 +165,7 @@
 			path = TFQNetworkUITests;
 			sourceTree = "<group>";
 		};
-		F725FE0920FE03F700CA501A /* Net */ = {
-			isa = PBXGroup;
-			children = (
-				F725FE0A20FE040300CA501A /* Base */,
-			);
-			path = Net;
-			sourceTree = "<group>";
-		};
-		F725FE0A20FE040300CA501A /* Base */ = {
+		F725FE0920FE03F700CA501A /* TFQNetwork */ = {
 			isa = PBXGroup;
 			children = (
 				F725FE0B20FE041B00CA501A /* TFQBaseModel.h */,
@@ -181,7 +173,7 @@
 				F725FE0D20FE041B00CA501A /* TFQBaseRequest.h */,
 				F725FE0F20FE041C00CA501A /* TFQBaseRequest.m */,
 			);
-			path = Base;
+			path = TFQNetwork;
 			sourceTree = "<group>";
 		};
 		F725FE1220FE042600CA501A /* AFNetworking */ = {

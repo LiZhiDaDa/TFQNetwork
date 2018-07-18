@@ -15,7 +15,11 @@
 + (void)postWithUrlPath:(NSString *)urlPath parameters:(NSDictionary *)params success:(requestSuccess)success failure:(requestFailour)failour{
     NSDictionary *dict = [self publicParametersWithParams:params];
     NSString *url = [NSString stringWithFormat:@"%@%@",[self urlHost],urlPath];
+    
+    NSLog(@"请求地址为:%@",url);
+    NSLog(@"请求参数为:%@",dict);
     [[AFHTTPSessionManager manager] POST:url parameters:dict success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"返回结果为:%@",responseObject);
         success(responseObject);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         failour(error);
@@ -37,7 +41,6 @@
     
     //如果字段key冲突，那么以左侧基础字典的值为准
     [dict addEntriesFromDictionary:params];
-    NSLog(@"字典中的数据为%@",dict);
     return dict.copy;
 }
 

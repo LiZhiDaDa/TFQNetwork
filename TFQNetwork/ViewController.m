@@ -28,16 +28,14 @@
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     [params setValue:@"110918" forKey:@"userid"];
     [TFQBaseRequest postWithUrlPath:urlPath parameters:params success:^(id responseObject) {
+        //酱紫直接获取的就是模型。
         TFQModel *model = [TFQModel modelWithDict:responseObject];
         //do other things;
     } failure:^(NSError *error) {
         //因为接口是假的，请求不成功，所以只能在failure里边解析数据了。
         TFQModel *model = [TFQModel modelWithDict:str1];
-        NSLog(@"%@",model.name);
-        NSLog(@"%d",model.age);
-        NSLog(@"%@",model.girls);
-        NSLog(@"%@",model.sonModel.name);
-//        NSLog(@"%@",error.userInfo);
+        NSLog(@"返回结果为:%@",str1);
+        NSLog(@"%@",error.userInfo);
     }];
 }
 
