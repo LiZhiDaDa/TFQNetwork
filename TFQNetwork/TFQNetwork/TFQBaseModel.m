@@ -60,6 +60,7 @@
             [self setValue:value forKey:propertyName];
         }
     }
+    free(ivarList);
     return self;
 }
 
