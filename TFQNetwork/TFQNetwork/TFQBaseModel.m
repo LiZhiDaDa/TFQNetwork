@@ -60,6 +60,7 @@
             [self setValue:value forKey:propertyName];
         }
     }
+    //凡是c语言，copy、alloc字眼创建的东西都要释放
     free(ivarList);
     return self;
 }
